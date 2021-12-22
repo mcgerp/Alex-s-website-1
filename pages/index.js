@@ -9,28 +9,14 @@ function HomePage() {
         alignItems: 'center'
       }}
     >
-      <h1 style={{ fontFamily: 'fantasy', color: '' }}>
-      <h1 style={{ fontFamily: 'fantasy', color: '       ' }}>
-      <h1 style={{ fontFamily: 'fantasy', color: '' }}>
-      <h1 style={{ fontFamily: 'fantasy', color: '' }}>
-        {`TWINS13's website`}
-      </h1>
-      <h2
-        style={{
-          fontFamily: 'cursive',
-          color: 'rgb(243, 103, 123)',
-          marginBottom: '10rem'
-        }}
-      >
-        click the buttons below
-      </h2>
+      <h1>TWINS13's website</h1>
+      <h2 style={{ marginBottom: '10rem' }}>click the buttons below</h2>
       <button
         style={{
-          fontFamily: 'monospace',
           padding: '1rem',
           fontSize: '2rem',
-          background: 'blue',
-          color: 'white'
+          background: '#e01090',
+          color: '#e0cb10'
         }}
         onClick={() => alert('Hello there')}
       >
@@ -38,11 +24,10 @@ function HomePage() {
       </button>
       <button
         style={{
-          fontFamily: 'monospace',
           padding: '1rem',
           fontSize: '2rem',
-          background: 'orange',
-          color: 'white',
+          background: '#8212de',
+          color: '#7fd615',
           marginTop: '2rem'
         }}
         onClick={() => {
@@ -59,5 +44,3 @@ function HomePage() {
     </div>
   );
 }
-
-export default HomePage;
